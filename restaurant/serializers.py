@@ -14,7 +14,7 @@ class BookingSerializer(serializers.ModelSerializer):
 
 class UserSerializer(serializers.ModelSerializer):
     class Meta:
-        model = Menu
+        model = User
         fields = [ 'url', 'username', 'email', 'groups']
 
 
